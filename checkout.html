@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon | Checkout</title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/amazon-icon.png"/>
+    
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/pages/checkout/checkout-header.css">
+    <link rel="stylesheet" href="styles/pages/checkout/checkout.css">
+  </head>
+  <body>
+    <div class="checkout-header">
+      <div class="header-content">
+        <div class="checkout-header-left-section">
+          <a href="amazonHome.html">
+            <img class="amazon-logo" src="images/amazon-logo.png">
+            <img class="amazon-mobile-logo" src="images/amazon-mobile-logo.png">
+          </a>
+        </div>
+
+        <div class="checkout-header-middle-section  js-cartItems-checkout">
+          Checkout (<a class="return-to-home-link"
+            href="amazon.html"></a>)
+        </div>
+
+        <div class="checkout-header-right-section">
+          <img src="images/icons/checkout-lock-icon.png">
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="cartEmpty" >
+      <img  class="cartnill-image"  src="images/cartnill.jpg" alt="">
+      <span class="cartnill-text" > Your Cart is Empty</span>
+        <a href="orders.html" class="viewOrders"> View Orders </a> 
+     </div>
+    <div class="main" id="main">
+      <div class="page-title">Review your order</div>
+ 
+      <div class="checkout-grid">
+        <div class="order-summary js-order-summery">
+          
+        </div>
+     
+        <div class="payment-summary js-paymentSummery">
+          
+        </div>
+      </div>
+      
+<div class="checkout-grid"></div>
+<div id="overlay"></div>
+<div id="confirmOrder"  class="confirmOrder"> 
+   <button id="close-confirmOrder" class="close-confirmOrder">x</button>
+<div class="confirm-order-title ">confirm your order</div>
+<div class="cart-items-confirm">
+  
+     
+    </div> 
+    <div id ="order-summery-confirm" class="order-summery-confirm payment-summary">
+      
+  </div>
+  <img id="confirm-img" class="confirm-img" src="/images/confirm img.png" alt="">
+   
+  </div> 
+</div>
+   
+    
+    <script type="module" src="javascript/checkout.js">
+     
+       </script>
+  </body>
+</html>
+ 
