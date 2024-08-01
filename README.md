@@ -1,5 +1,5 @@
 -Home 
-![Home](https://github.com/user-attachments/assets/8173aecb-4908-4017-aa23-123b5936bfe8)
+![Home](https://github.com/user-attachments/assets/1ae20e76-36be-425b-8214-cf22c8e851ca)
 -Explore 
 ![Explore](https://github.com/user-attachments/assets/b61ae9d5-e3b8-4d14-b26c-4f63962457d9)
 -Checkout
